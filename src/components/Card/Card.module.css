@@ -1,0 +1,73 @@
+.cardSetup {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 5px solid rgb(41, 12, 37);
+    padding: 1px;
+    width: 25vw;
+    border-radius: 25px;
+    background-color: rgba(192, 189, 25, 0.5);
+}
+
+.cardSetup:hover {
+    border: 5px solid yellowgreen;
+    background-color: rgba(192, 25, 33, 0.5);
+
+    .cardText {
+        color: black;
+    }
+
+    .cardImg {
+        border-color: black;
+        transform: scaleX(-1);
+    }
+
+}
+
+.cardText {
+    font-size: 8px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(231, 216, 216);
+    margin-left: 10px;
+}
+
+.cardImg {
+    width: 150px;
+    border-radius: 10px;
+    border: 3px solid slateblue;
+}
+
+.cardOnClose {
+    height: 75px;
+    color: whitesmoke;
+    background-color: red;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.cardOnClose:hover {
+    color: red;
+    background-color: rgb(149, 133, 133);
+}
+
+
+
+.buttonLink {
+    text-decoration: none;
+    color: inherit;
+    font-family: RickAndMorty;
+    color: chartreuse;
+}
+
+.buttonLink:hover {
+    text-decoration: none;
+}
+
+.buttonFav {
+    border-radius: 25px;
+    background-color: rgba(177, 108, 173, 0.5);
+}
+
+.buttonFav:hover {
+    background-color: rgba(64, 250, 8, 0.5);
+}

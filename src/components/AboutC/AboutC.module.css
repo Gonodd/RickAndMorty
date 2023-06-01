@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    justify-content: space-around;
+}
+
+.textContainer {
+    width: 50%;
+    color: whitesmoke;
+}
+
+.imgContainer {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    color: whitesmoke;
+}
+
+.img {
+    border: 5px solid black;
+    border-radius: 25px;
+}

@@ -1,0 +1,14 @@
+.App {
+   background-image: url(./Assets/background.png); 
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-attachment: fixed;
+   height: 100vh;
+   width: 100vw;
+}
+
+@font-face {
+   font-family: RickAndMorty;
+   src: url("./Assets/get_schwifty.ttf");
+}
