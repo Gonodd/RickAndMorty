@@ -1,0 +1,18 @@
+{
+  "name": "randm",
+  "version": "1.0.0",
+  "description": "server for RickAndMorty aplication from integration proyect of Henry",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./src/index.js"
+  },
+  "author": "Gonzalo Oddeni",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
