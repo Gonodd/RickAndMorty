@@ -1,12 +1,15 @@
-const http = require("http");
-const fs = require("fs");
-const { error } = require("console");
-//const data = require("./utils/data");
-const getCharById = require("./controllers/getCharById.js")
-
+require("dotenv").config();
 const PORT = 3001;
+const server = require("./app");
 
-http.createServer((req, res) => {
+server.listen(PORT, () => {
+    console.log(`Server on port ${PORT}`);
+});
+
+
+
+/*http.createServer((req, res) => {
+    console.log(req.url)
     res.setHeader('Access-Control-Allow-Origin', '*');
     if (req.url.includes("/rickandmorty/character")) {
         const id = Number(req.url.split("/").at(-1));
@@ -14,3 +17,4 @@ http.createServer((req, res) => {
     }
 
 }).listen(PORT, "localhost")
+*/
